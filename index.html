@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Password Generator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="dist/index.js"></script>
+
+</head>
+
+<body>
+  <div class="main-container">
+    <h1>Password Generator</h1>
+
+    <div class="password-box">
+
+      <textarea id="generated-password" readonly maxlength="24" aria-readonly="true"
+        placeholder="Your generated password will appear here">
+      </textarea>
+
+      <button id="copy-button" onclick="copyToClipboard()">
+        Copy 📋
+      </button>
+
+    </div>
+
+    <label for="password-length">Password Length:</label>
+    <input type="range" id="password-length" min="8" max="32" step="1" value="12">
+    <label for="length-display">Length: <span id="length-display">12</span></label>
+
+    <div class="options-container">
+
+      <div class="options1">
+        <input type="checkbox" id="include-numeric" checked>
+        <label for="include-numeric">Include Numeric</label>
+        <br>
+        <input type="checkbox" id="include-symbols" checked>
+        <label for="include-symbols">Include Symbols</label>
+        <br>
+      </div>
+
+      <div class="options2">
+        <input type="checkbox" id="include-uppercase" checked>
+        <label for="include-uppercase">Include Uppercase</label>
+        <br>
+        <input type="checkbox" id="include-lowercase" checked>
+        <label for="include-lowercase">Include Lowercase</label>
+        <br>
+      </div>
+
+    </div>
+
+    <div class="generate-container">
+      <button id="generate-button">Generate Password</button>
+    </div>
+
+    <script>src="copy.js"</script>
+    
+  </div>
+</body>
+
+</html>

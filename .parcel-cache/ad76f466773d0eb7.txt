@@ -1,0 +1,10 @@
+9
+38C:\ALL projects\PassGen-Extention\dist133362572856521305 1
+41C:\ALL projects\PassGen-Extention\copy.js133362610696780840 0
+51C:\ALL projects\PassGen-Extention\dist\index.js.map133362572856490088 0
+47C:\ALL projects\PassGen-Extention\tsconfig.json133362312884926079 0
+44C:\ALL projects\PassGen-Extention\index.html133362607417567113 0
+42C:\ALL projects\PassGen-Extention\index.ts133362318412520273 0
+55C:\ALL projects\PassGen-Extention\password-generator.ts133362597814809334 0
+43C:\ALL projects\PassGen-Extention\style.css133362607391471294 0
+47C:\ALL projects\PassGen-Extention\dist\index.js133362572856417222 0
